@@ -122,3 +122,30 @@ ul{
     justify-content: center;
     align-items: center;
 }
+
+/* ---------Third Section--------- */
+
+.third-section{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 128px 128px;
+}
+
+.third-section .quote{
+    width: 500px;
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.third-section .quote-person{
+
+    width: fit-content;
+    width: 450px;
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+}
