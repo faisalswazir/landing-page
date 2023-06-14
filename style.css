@@ -109,7 +109,7 @@ ul{
     width: 160px;    
 }
 
-.card p{
+.information-belt .card p{
     margin-top: 8px;
     text-align: center;
     font-size: 15px;
@@ -149,3 +149,46 @@ ul{
     font-size: 24px;
     font-weight: bold;
 }
+
+/*---------Fourth section---------*/
+
+.fourth-section{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 128px;
+}
+
+.fourth-section .card{
+    display: flex;
+    background-color: blueviolet;
+    padding: 64px 128px;
+    gap: 64px;
+    border-radius: 10px;
+    color: white;
+    background-color: #3882f6;
+    display: flex;
+    gap: 64px;
+
+}
+
+.fourth-section .card .text{
+    font-size: 24px;
+    font-weight: bolder;
+
+}
+
+.fourth-section .card button{
+    border-radius: 10px;
+    padding: 8px 24px;
+    color: #f9faf8;
+    font-size: 16px;
+    background-color: #3882f6;
+    border: 3px solid white;
+    
+}
+
+
+
+
